@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+	<meta charset="utf-8">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Q3Practice2</title>
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+	<style>
+		
+		#quotetext {
+
+			position: absolute; top: 47%; left: 50%; transform: translate(-50%, -50%);
+
+		}
+
+		img {
+
+			width: 900px; 
+
+		}
+
+		body {
+
+ 		font-style: italic;
+
+		}
+
+	</style>
+
+</head>
+
+<body>
+
+	<h2></h2>
+
+	<div class="container-fluid" id="main">
+
+		<div class="row">
+			
+			<center>
+				
+				<div class="col-md-10" id="div2">
+					
+					<img id="box" src="https://media.gettyimages.com/id/1213673094/video/modern-speech-bubble-line-icon-animation-on-white-background.jpg?s=640x640&k=20&c=bkl6PtnuuUvclGCPegqrThnY2Un9h47UyMLsf3tgxAo=" class="img-fluid">
+
+					<div id="quotetext" class="col-md-3">
+						
+						<p id="quote1"></p>
+
+						<p id="name"></p>
+
+					</div>
+
+				</div>
+
+			</center>
+
+		</div>
+
+	</div>
+
+	<script type="text/javascript">
+		
+		let quote1 = "عُذِّبَتِ امْرَأَةٌ فِي هِرَّةٍ حَبَسَتْهَا، حَتَّى مَاتَتْ جُوعًا، فَدَخَلَتْ فِيهَا النَّارَ ـ قَالَ فَقَالَ وَاللَّهُ أَعْلَمُ ـ لاَ أَنْتِ أَطْعَمْتِهَا وَلاَ سَقَيْتِهَا حِينَ حَبَسْتِيهَا، وَلاَ أَنْتِ أَرْسَلْتِيهَا فَأَكَلَتْ مِنْ خَشَاشِ الأَرْض";
+
+		let name = "-رَسُولَ اللَّهِ صلى الله عليه وسلم";
+
+		document.getElementById("quote1").innerHTML = quote1 + "<br>";
+
+		document.getElementById("name").innerHTML = name;
+
+	</script>
+
+</body>
+
+</html>
